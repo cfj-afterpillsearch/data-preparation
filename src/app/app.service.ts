@@ -27,7 +27,7 @@ export class AppService {
   private readonly logger = new Logger(AppService.name);
   private readonly parser = new Parser();
 
-  job_address2latlng() {
+  async job_address2latlng(csvFilePath: string) {
     console.log('AAA');
   }
 
