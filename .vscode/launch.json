@@ -10,5 +10,18 @@
         "runtimeArgs": ["ts-node", "./src/script_postalcode2address.ts"],
         "console": "integratedTerminal",
       },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "緯度経度",
+        "runtimeExecutable": "npx",
+        "cwd": "${workspaceFolder}",
+        "runtimeArgs": [
+          "ts-node",
+          "./src/script_address2latlng.ts",
+          "--csvFilePath",
+          "./data/20230625/tmp.csv"],
+        "console": "integratedTerminal",
+      },
     ]
    }
