@@ -112,10 +112,15 @@ export class AppService {
         await new Promise((resolve) => setTimeout(resolve, 30));
 
         // # 整形する
-        const tmp: ICSVRECORD_MedicalInstitutionWithGeocode = {
+        const tmp = {
           ...csvRecord,
-          latitude: geocode.lat ? geocode.lat : null,
-          lngitude: geocode.lng ? geocode.lng : null,
+          location: {
+            type: 'Point',
+            coordinates: [
+              geocode.lng ? geocode.lng : null,
+              geocode.lat ? geocode.lat : null,
+            ],
+          },
         };
         result.push(tmp);
       } catch (error) {
@@ -125,8 +130,7 @@ export class AppService {
       }
     }
 
-    //# CSVをSTDINに出力する
-    const csv = this.parser.parse(result);
-    console.log(csv);
+    //# JSON ObjectをSTDINに出力する
+    console.log(JSON.stringify(result));
   }
 }
