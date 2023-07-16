@@ -33,7 +33,7 @@ export class AppService {
   private readonly logger = new Logger(AppService.name);
   private readonly parser = new Parser();
 
-  async job_postalcode2address(csvFilePath: string) {
+  async mi_postalcode2address(csvFilePath: string) {
     const result = [];
     // # csvファイルの読み込み
     const csvParseOptions = {
@@ -89,7 +89,7 @@ export class AppService {
     console.log(csv);
   }
 
-  async job_address2latlng(csvFilePath: string) {
+  async mi_address2latlng(csvFilePath: string) {
     const result = [];
     // # csvファイルの読み込み
     const csvParseOptions = {

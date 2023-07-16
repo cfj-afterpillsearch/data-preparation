@@ -13,7 +13,7 @@ const options = program.opts();
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, { logger: false });
-  await app.get(AppService).job_address2latlng(options.csvFilePath);
+  await app.get(AppService).mi_postalcode2address(options.csvFilePath);
   app.close();
 }
 

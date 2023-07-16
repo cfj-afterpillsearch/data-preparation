@@ -9,11 +9,11 @@
 下記コマンドを順にプロジェクトルートにて実行する。
 
 ```shell: ピルにゃんデータから郵便番号を元に住所、市区町村コードを取得
-npx ts-node ./src/script_postalcode2address.ts --csvFilePath './data/20230625/medicalinstitution-20220808-raw.csv' > ./data/20230625/tmp.csv
+npx ts-node ./src/medicalinstitution_postalcode2address.ts --csvFilePath './data/20230625/medicalinstitution-20220808-raw.csv' > ./data/20230625/tmp.csv
 ```
 
 ```shell: 住所から緯度経度を取得
-npx ts-node ./src/script_address2latlng.ts --csvFilePath './data/20230625/tmp.csv' > ./data/20230625/medicalinstitution-output.json
+npx ts-node ./src/medicalinstitution_address2latlng.ts --csvFilePath './data/20230625/tmp.csv' > ./data/20230625/medicalinstitution-output.json
 ```
 
 これで出力されたデータをMongoDBに入れる。
