@@ -25,7 +25,7 @@ export interface ICSVRECORD_MedicalInstitution {
   address: string;
   phone: string;
   website: string | null;
-  available_date: string | null;
+  openinghours: string | null;
 }
 
 interface IGeocode {

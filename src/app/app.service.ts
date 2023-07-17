@@ -69,7 +69,7 @@ export class AppService {
           shikuchosonCode,
           phone: csvRecord.custom_phone,
           website: csvRecord.custom_website,
-          available_date: csvRecord.custom_memo_available_datetime.replace(
+          openinghours: csvRecord.custom_memo_available_datetime.replace(
             '\r\n',
             '\n',
           ),
