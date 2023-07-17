@@ -19,6 +19,7 @@ npx ts-node ./src/medicalinstitution_address2latlng.ts --csvFilePath './data/202
 これで出力されたデータをMongoDBに入れる。
 
 ### 注意点
+
 Google Geocoding APIで住所から緯度経度を引けない場合がある。その場合、`latitude`,  `langitude`の項目にはnullとなる。
 MongoDBにデータを入れた後、これらのレコードを探して、正しい緯度経度を入力する必要がある。
 

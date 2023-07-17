@@ -3,7 +3,6 @@ import { Injectable, Logger } from '@nestjs/common';
 import {
   ICSVRECORD_PillnyanRaw_MedicalInstitution,
   ICSVRECORD_MedicalInstitution,
-  ICSVRECORD_MedicalInstitutionWithGeocode,
   ICSVRECORD_PillnyanRaw_Pharmacy,
   ICSVRECORD_Pharmacy,
 } from '../types';
