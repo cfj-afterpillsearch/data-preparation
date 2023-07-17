@@ -164,7 +164,7 @@ export class AppService {
           id: csvRecord.post_id,
           name: csvRecord.post_title.replace('\r\n', ''),
           postalcode: csvRecord.custom_postalcode,
-          address_todofuken: format_todofuken(csvRecord.tax_todofuken),
+          address_todofuken: csvRecord.tax_todofuken,
           address_shikuchoson,
           address: csvRecord.custom_address,
           shikuchosonCode,
