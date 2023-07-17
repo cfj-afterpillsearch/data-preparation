@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "64b4d6fbc43e31764ae78eba"
+  },
+  "id": "77700083",
+  "name": "栄町レディースクリニック",
+  "postalcode": "007-0842",
+  "address_todofuken": "北海道",
+  "address_shikuchoson": "札幌市東区",
+  "address": "札幌市東区北42条東16丁目1-1N42メディカルビル2階",
+  "shikuchosonCode": "01103",
+  "phone": "011-783-1111",
+  "website": "https://www.sakaemachilc.com/",
+  "openinghours": "月・火・木・金9：00～12：00、14：00～ 17：00\n水・土9：00～12：00",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      141.36736597572488,
+      43.1132512792842
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4d6fcc43e31764ae792b4"
+  },
+  "id": "77701101",
+  "name": "医療法人社団レニア会  武谷ひまわりウィメンズクリニック",
+  "postalcode": "189-0014",
+  "address_todofuken": "東京都",
+  "address_shikuchoson": "東村山市",
+  "address": "東村山市本町2-3-21  東村山第3赤澤ビル3F",
+  "shikuchosonCode": "13213",
+  "phone": "042-398-4103",
+  "website": "http://www.cl-himawari.com",
+  "openinghours": "平日  9：00-12：00  14：00-16：00土      9：00-12：00",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      139.4662614501834,
+      35.760228909075245
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4d6fcc43e31764ae795fb"
+  },
+  "id": "77701940",
+  "name": "林田レディースクリニック",
+  "postalcode": "565-0874",
+  "address_todofuken": "大阪府",
+  "address_shikuchoson": "吹田市",
+  "address": "吹田市吉江台4丁目2-60北千里医療ビル5階",
+  "shikuchosonCode": "27205",
+  "phone": "06-4863-5773",
+  "website": "ー",
+  "openinghours": "月・火・水・金曜\n9:30-12:00、14:00-17:00土曜 9:30-12:00",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      135.5092167136271,
+      34.820354926889486
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4d6fcc43e31764ae79763"
+  },
+  "id": "77702300",
+  "name": "いけざわレディースクリニック",
+  "postalcode": "664-0858",
+  "address_todofuken": "兵庫県",
+  "address_shikuchoson": "伊丹市",
+  "address": "伊丹市西台1丁目2-11C-3ビル1F",
+  "shikuchosonCode": "28207",
+  "phone": "072-777-8184",
+  "website": "https://www.ikezawa-clinic.jp/",
+  "openinghours": "月～金  9:30-13:00  16:30-19:30\n土  9:30-13:00\r\n日祝休み",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      135.41202303111575,
+      34.781307115487344
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "64b4d6fcc43e31764ae79a06"
+  },
+  "id": "77702975",
+  "name": "うえやま貴子クリニック",
+  "postalcode": "880-0865",
+  "address_todofuken": "宮崎県",
+  "address_shikuchoson": "宮崎市",
+  "address": "宮崎市松山2丁目23-2  2F",
+  "shikuchosonCode": "45201",
+  "phone": "0985-60-6676",
+  "website": "http://www.ueyamatakako-cl.com/",
+  "openinghours": "月・火・水・金  9:00～17:00木  9:00～12:00、\n土  9:00～13:00",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      131.42938030013894,
+      31.9050560482931
+    ]
+  }
+}]
