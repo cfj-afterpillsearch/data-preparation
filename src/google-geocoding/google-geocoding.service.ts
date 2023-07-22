@@ -9,7 +9,7 @@ export class GoogleGeocodingService {
     const response = await this.httpService.axiosRef
       .get('/maps/api/geocode/json', {
         params: {
-          key: '***REMOVED***',
+          key: process.env.GOOGLE_GEOCODING_API_KEY,
           address: address,
         },
       })
