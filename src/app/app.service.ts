@@ -58,12 +58,16 @@ export class AppService {
         const address_shikuchoson =
           this.shikuchosonCodeService.getShikuchosonName(shikuchosonCode);
 
+        // # 市区町村コードから市区町村名を取得する
+        const address_todofuken =
+          this.shikuchosonCodeService.getTodofukenName(shikuchosonCode);
+
         // # 整形する
         const tmp: ICSVRECORD_MedicalInstitution = {
           id: csvRecord.post_id,
           name: csvRecord.post_title.replace('\r\n', ''),
           postalcode: csvRecord.custom_postalcode,
-          address_todofuken: format_todofuken(csvRecord.tax_todofuken),
+          address_todofuken,
           address_shikuchoson,
           address: csvRecord.custom_address,
           shikuchosonCode,

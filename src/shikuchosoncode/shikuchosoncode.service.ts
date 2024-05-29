@@ -13,11 +13,31 @@ export class ShikuchosoncodeService {
    * @returns {string} 市区町村名
    */
   getShikuchosonName(shikuchosonCode: string): string {
-    const res = this.shikuchosoncodeData.find((item) => item[0].substring(0, 5) === shikuchosonCode);
+    const res = this.shikuchosoncodeData.find(
+      (item) => item[0].substring(0, 5) === shikuchosonCode,
+    );
     if (res) {
       return res[2];
     } else {
-      throw new Error(`市区町村コードは見つかりませんでした。, ${shikuchosonCode}`);
+      throw new Error(
+        `市区町村コードは見つかりませんでした。, ${shikuchosonCode}`,
+      );
+    }
+  }
+  /**
+   * @param {string} shikuchosonCode 市区町村コード
+   * @returns {string} 都道府県名
+   */
+  getTodofukenName(shikuchosonCode: string): string {
+    const res = this.shikuchosoncodeData.find(
+      (item) => item[0].substring(0, 5) === shikuchosonCode,
+    );
+    if (res) {
+      return res[1];
+    } else {
+      throw new Error(
+        `市区町村コードは見つかりませんでした。, ${shikuchosonCode}`,
+      );
     }
   }
 }
