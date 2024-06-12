@@ -77,6 +77,8 @@ export class AppService {
             '\r\n',
             '\n',
           ),
+          isOpenSunday: csvRecord.tax_is_open_sunday,
+          isOpenHoliday: csvRecord.tax_is_open_holiday,
         };
         result.push(tmp);
       } catch (error) {

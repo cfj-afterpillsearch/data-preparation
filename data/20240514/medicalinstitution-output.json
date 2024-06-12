@@ -1,0 +1,107 @@
+[
+  {
+    "id": "",
+    "name": "学校法人聖路加国際大学聖路加国際病院",
+    "postalcode": "104-8560",
+    "address_todofuken": "東京都",
+    "address_shikuchoson": "中央区",
+    "address": "中央区明石町9番1号",
+    "shikuchosonCode": "13102",
+    "phone": "03-3541-5151",
+    "website": "http://hospital.luke.ac.jp/",
+    "openinghours": "女性総合診療部 平日 8:30-17:00救命救急センター 夜間 17:00-8:30土・日・祝 0:00-23:59",
+    "isOpenSunday": "⚪︎",
+    "isOpenHoliday": "×",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.7772975,
+        35.6673088
+      ]
+    }
+  },
+  {
+    "id": "",
+    "name": "北里大学 北里研究所病院",
+    "postalcode": "108-8642",
+    "address_todofuken": "東京都",
+    "address_shikuchoson": "港区",
+    "address": "港区白金5丁目9番1号",
+    "shikuchosonCode": "13103",
+    "phone": "03-3444-6161",
+    "website": "http://www.kitasato-u.ac.jp/hokken-hp/",
+    "openinghours": "平日 8:30-11:30土(第4除く) 8:30-11:30",
+    "isOpenSunday": "⚪︎",
+    "isOpenHoliday": "△",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.7257979,
+        35.6448201
+      ]
+    }
+  },
+  {
+    "id": "",
+    "name": "国家公務員共済組合連合会 虎の門病院",
+    "postalcode": "105-8470",
+    "address_todofuken": "東京都",
+    "address_shikuchoson": "港区",
+    "address": "港区虎ノ門2-2-2",
+    "shikuchosonCode": "13103",
+    "phone": "03-3588-1111",
+    "website": "https://www.toranomon.gr.jp",
+    "openinghours": "平日 9:00-16:30",
+    "isOpenSunday": "×",
+    "isOpenHoliday": "⚪︎",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.7450282,
+        35.6686128
+      ]
+    }
+  },
+  {
+    "id": "",
+    "name": "独立行政法人地域医療機能推進機構 東京新宿メディカルセンター",
+    "postalcode": "162-8543",
+    "address_todofuken": "東京都",
+    "address_shikuchoson": "新宿区",
+    "address": "新宿区津久戸町5-1",
+    "shikuchosonCode": "13104",
+    "phone": "03-3269-8111",
+    "website": "http://www.tkn-hosp.gr.jp",
+    "openinghours": "月・木 9:00-16:00 金 11:00-16:00",
+    "isOpenSunday": "×",
+    "isOpenHoliday": "⚪︎",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.7421308,
+        35.7034157
+      ]
+    }
+  },
+  {
+    "id": "",
+    "name": "東京医科大学病院",
+    "postalcode": "160-0023",
+    "address_todofuken": "東京都",
+    "address_shikuchoson": "新宿区",
+    "address": "新宿区西新宿6-7-1",
+    "shikuchosonCode": "13104",
+    "phone": "03-3342-6111",
+    "website": "http://hospinfo.tokyo-med.ac.jp/",
+    "openinghours": "平日 8:00-11:00",
+    "isOpenSunday": "△",
+    "isOpenHoliday": "⚪︎",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        139.6997928,
+        35.689748
+      ]
+    }
+  }
+]
