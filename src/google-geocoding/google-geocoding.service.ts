@@ -1,6 +1,8 @@
 import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
 
+import 'dotenv/config';
+
 @Injectable()
 export class GoogleGeocodingService {
   constructor(private readonly httpService: HttpService) {}
