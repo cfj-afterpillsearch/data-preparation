@@ -155,11 +155,17 @@ export class AppService {
       );
 
     for (const csvRecord of csvRecords) {
+      const formattedPostalCode = csvRecord.custom_postalcode
+        .replace(/‐/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/\s/g, '')
+        .replace(/[０-９]/g, (match) =>
+          String.fromCharCode(match.charCodeAt(0) - 0xfee0),
+        );
       try {
         // # 郵便番号から市区町村コードを取得する
-        const shikuchosonCode = this.postalcodeService.getShikuchosonCode(
-          csvRecord.custom_postalcode,
-        );
+        const shikuchosonCode =
+          this.postalcodeService.getShikuchosonCode(formattedPostalCode);
 
         // # 市区町村コードから市区町村名を取得する
         const address_shikuchoson =
